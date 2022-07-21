@@ -43,7 +43,7 @@ const SingleTutor = () => {
     }
 
     try {
-      console.log('testing line 52');
+      //console.log('testing line 52');
       const datab = await saveTutor({
         variables: { tutorId }
       });

@@ -54,6 +54,9 @@ app.post('/api/messages', (req, res) => {
     });
 });
 
+app.get("/tutors/service-worker.js", (req, res) => {
+  res.sendFile(path.resolve(__dirname, '../client/build/service-worker.js'));
+});
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });

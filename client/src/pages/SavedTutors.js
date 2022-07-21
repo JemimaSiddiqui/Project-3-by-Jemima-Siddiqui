@@ -58,7 +58,7 @@ const SavedTutors = () => {
           <h2>
             {userData.savedTutors?.length
               ? `Viewing ${userData.savedTutors.length} saved ${userData.savedTutors.length === 1 ? 'tutor' : 'tutors'}:`
-              : 'You have no saved tutors!'}
+              : 'You have no saved tutors.'}
           </h2>
         </Row>
         <Row xs="1" sm="1" md="2">

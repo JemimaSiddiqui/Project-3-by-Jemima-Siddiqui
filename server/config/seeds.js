@@ -13,7 +13,7 @@ db.once('open', async () => {
             tutorAbout: 'Test Analyst working in Cloud',
             tutorLoc: 'Sydney, 2000',
             tutorCert: 'WWCC, AWS Cloud Practitioner',
-            tutorPic: 'https://tbc',
+            tutorPic: 'https://www.biography.com/musician/drake',
             tutorPh: '0424976625'
         },
         {
@@ -24,7 +24,7 @@ db.once('open', async () => {
             tutorAbout: 'Passionate about software development and football',
             tutorLoc: 'Green Point, 2251',
             tutorCert: 'Full Stack Developer',
-            tutorPic: 'https://tbc',
+            tutorPic: 'https://www.biography.com/musician/drake',
             tutorPh: '0452077227'
         },
         {
@@ -35,7 +35,7 @@ db.once('open', async () => {
             tutorAbout: 'Engineering Student with HD WAM',
             tutorLoc: 'Kingsford, 2032',
             tutorCert: 'None',
-            tutorPic: 'https://tbc',
+            tutorPic: 'https://www.biography.com/musician/drake',
             tutorPh: '555-1234'
         },
        

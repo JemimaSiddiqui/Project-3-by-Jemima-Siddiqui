@@ -23,7 +23,7 @@ function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   let location = useLocation();
-  const [doctitle, setDocTitle] = useDocTitle("Babysitters Club");
+  const [doctitle, setDocTitle] = useDocTitle("The Tutoring Hub");
   function showAuthNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -31,14 +31,14 @@ function Navigation() {
           <NavItem>
             <NavLink
               className={location.pathname === '/me' ? 'active' : ''}
-              onClick={() => setDocTitle("Babysitters Club :: My Profile")}
+              onClick={() => setDocTitle("The Tutoring Hub | My Profile")}
             ><Link to='/me'>My Profile</Link>
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink
               className={location.pathname === '/saved' ? 'active' : ''}
-              onClick={() => setDocTitle("Babysitters Club :: Favourites")}
+              onClick={() => setDocTitle("The Tutoring Hub | Favourites")}
             ><Link to='/saved'>Favourites</Link>
             </NavLink>
           </NavItem>
@@ -59,14 +59,14 @@ function Navigation() {
             <NavLink
               href="/register"
               className={location.pathname === '/register' ? 'active' : ''}
-              onClick={() => setDocTitle("Babysitters Club :: Signup")}
+              onClick={() => setDocTitle("The Tutoring Hub | Signup")}
             ><Link to='/register'>Register</Link>
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink
               className={location.pathname === '/login' ? 'active' : ''}
-              onClick={() => setDocTitle("Babysitters Club :: Login")}
+              onClick={() => setDocTitle("The Tutoring Hub | Login")}
             ><Link to='/login'>Login</Link>
             </NavLink>
           </NavItem>
@@ -87,7 +87,7 @@ function Navigation() {
             <NavItem>
               <NavLink
                 className={location.pathname === '/home' ? 'active' : ''}
-                onClick={() => setDocTitle("Babysitters Club :: Home")}
+                onClick={() => setDocTitle("The Tutoring Hub | Home")}
               ><Link to='/home'>Home</Link>
               </NavLink>
             </NavItem>

@@ -18,3 +18,7 @@ footer {
     color: var(--purple);
     font-size: 20px;
   }
+
+  .name {
+    font-size: small;
+  }
